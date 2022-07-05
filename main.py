@@ -3,7 +3,7 @@ import json
 
 
 def start():
-    spotify = TSpotify("05f8c79e5c3d4068a60343af625ccf74", "ae05296151774e8cb62bd047ce369c31")
+    spotify = TSpotify("", "")
     token = spotify.getAccessToken()
 
     artist = spotify.getArtist(token, "7FNnA9vBm6EKceENgCGRMb?si=HAeEfRxvTMq_Dh1iGhEuRw")
